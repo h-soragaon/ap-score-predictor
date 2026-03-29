@@ -1,0 +1,77 @@
+Build a production-ready AP score probability predictor using the attached research pack and course config seed.
+
+Requirements:
+- Courses supported:
+  AP Biology
+  AP Calculus AB
+  AP Calculus BC
+  AP Chemistry
+  AP Computer Science A
+  AP English Language and Composition
+  AP English Literature and Composition
+  AP Environmental Science
+  AP Human Geography
+  AP Microeconomics
+  AP Music Theory
+  AP Physics 1
+  AP Physics 2
+  AP Psychology
+  AP Statistics
+  AP United States Government and Politics
+  AP United States History
+  AP World History: Modern
+
+Product requirements:
+- Input:
+  - single-student manual entry
+  - batch CSV/API pipeline ingestion
+- Output:
+  - probability distribution across AP scores 1,2,3,4,5
+  - most likely score
+  - expected score
+  - explanatory factors
+- Accuracy target:
+  - stronger than deterministic public AP score calculators by using public College Board data plus probabilistic calibration
+- Constraints:
+  - rely on public data only
+  - design for year-aware configs
+  - expose uncertainty instead of a single fixed score only
+
+Implementation plan:
+1. Read the attached `ap_course_config_seed.json` and use it as the canonical initial course registry.
+2. Read the attached `ap_score_predictor_research_pack.md` and implement the recommended pipeline.
+3. Build a data harvesting layer for:
+   - official exam structure pages
+   - official score distributions by subject and year
+   - official scoring statistics by subject and year
+   - open public calculators as noisy cutoff priors
+4. Build a deterministic weighted-composite baseline.
+5. Build a probabilistic model that:
+   - computes weighted composite
+   - applies FRQ difficulty adjustment using official scoring-statistics means/SDs
+   - estimates score-boundary distributions from public calculators
+   - constrains those boundaries using official yearly score distributions
+   - returns P(score=1..5)
+6. Add tests for each course to verify:
+   - input validation
+   - correct section weighting
+   - correct handling of special cases:
+     - AP Calculus BC optional AB subscore
+     - AP Music Theory special structure
+     - APUSH / AP World separate SAQ, DBQ, LEQ
+     - AP Microeconomics long vs short FRQ weighting
+7. Expose:
+   - Python library
+   - FastAPI API
+   - simple web UI
+   - CSV CLI
+8. Document assumptions and calibration limits clearly.
+
+Deliverables:
+- source code
+- tests
+- sample input/output files
+- README with setup and usage
+- note describing how to refresh annual data
+
+Do not hard-code one permanent cutoff table. Make the model data-driven and versioned by exam year.

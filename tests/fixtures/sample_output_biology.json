@@ -1,0 +1,23 @@
+{
+  "course": "ap_biology",
+  "exam_year": 2026,
+  "predicted_distribution": {
+    "1": 0.002,
+    "2": 0.0145,
+    "3": 0.1208,
+    "4": 0.4643,
+    "5": 0.3985
+  },
+  "most_likely_score": 4,
+  "expected_score": 4.24,
+  "weighted_composite": 0.7471,
+  "difficulty_adjustment": 0.0,
+  "confidence_band": {
+    "p10": 3,
+    "p90": 5
+  },
+  "explanations": [
+    "Moderate overall performance; composite is near the course median.",
+    "No significant difficulty adjustment (no scoring statistics available or performance was near national averages)."
+  ]
+}

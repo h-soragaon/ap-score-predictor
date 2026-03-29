@@ -1,0 +1,75 @@
+{
+  "_description": "Pre-seeded approximate cutoff priors for ordered logit model. tau_2..tau_5 are normalized composite thresholds for score boundaries (1/2, 2/3, 3/4, 4/5). sigma is the uncertainty parameter. Values are estimates from public calculator consensus and score distribution fitting.",
+  "ap_biology": {
+    "tau": [0.25, 0.42, 0.60, 0.78],
+    "sigma": 0.08
+  },
+  "ap_calculus_ab": {
+    "tau": [0.22, 0.38, 0.55, 0.72],
+    "sigma": 0.07
+  },
+  "ap_calculus_bc": {
+    "tau": [0.18, 0.33, 0.50, 0.68],
+    "sigma": 0.07
+  },
+  "ap_chemistry": {
+    "tau": [0.25, 0.42, 0.58, 0.75],
+    "sigma": 0.08
+  },
+  "ap_computer_science_a": {
+    "tau": [0.22, 0.38, 0.55, 0.72],
+    "sigma": 0.07
+  },
+  "ap_english_language_and_composition": {
+    "tau": [0.28, 0.44, 0.60, 0.76],
+    "sigma": 0.09
+  },
+  "ap_english_literature_and_composition": {
+    "tau": [0.28, 0.45, 0.62, 0.78],
+    "sigma": 0.09
+  },
+  "ap_environmental_science": {
+    "tau": [0.28, 0.45, 0.62, 0.78],
+    "sigma": 0.08
+  },
+  "ap_human_geography": {
+    "tau": [0.25, 0.42, 0.58, 0.75],
+    "sigma": 0.08
+  },
+  "ap_microeconomics": {
+    "tau": [0.25, 0.42, 0.60, 0.78],
+    "sigma": 0.08
+  },
+  "ap_music_theory": {
+    "tau": [0.25, 0.42, 0.60, 0.78],
+    "sigma": 0.09
+  },
+  "ap_physics_1": {
+    "tau": [0.28, 0.45, 0.62, 0.80],
+    "sigma": 0.08
+  },
+  "ap_physics_2": {
+    "tau": [0.25, 0.42, 0.60, 0.78],
+    "sigma": 0.08
+  },
+  "ap_psychology": {
+    "tau": [0.22, 0.38, 0.55, 0.72],
+    "sigma": 0.07
+  },
+  "ap_statistics": {
+    "tau": [0.25, 0.42, 0.58, 0.75],
+    "sigma": 0.08
+  },
+  "ap_us_government_and_politics": {
+    "tau": [0.25, 0.42, 0.58, 0.75],
+    "sigma": 0.08
+  },
+  "ap_us_history": {
+    "tau": [0.28, 0.45, 0.60, 0.76],
+    "sigma": 0.09
+  },
+  "ap_world_history_modern": {
+    "tau": [0.28, 0.45, 0.60, 0.76],
+    "sigma": 0.09
+  }
+}

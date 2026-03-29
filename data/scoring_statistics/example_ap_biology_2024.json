@@ -1,0 +1,13 @@
+{
+  "_description": "Example scoring statistics file. Replace with actual College Board FRQ scoring data.",
+  "course": "ap_biology",
+  "year": 2024,
+  "questions": [
+    {"question": 1, "section": "frq", "max_points": 9, "mean": 4.2, "sd": 2.1},
+    {"question": 2, "section": "frq", "max_points": 9, "mean": 3.8, "sd": 2.3},
+    {"question": 3, "section": "frq", "max_points": 4, "mean": 2.0, "sd": 1.2},
+    {"question": 4, "section": "frq", "max_points": 4, "mean": 1.8, "sd": 1.1},
+    {"question": 5, "section": "frq", "max_points": 4, "mean": 2.2, "sd": 1.0},
+    {"question": 6, "section": "frq", "max_points": 4, "mean": 1.5, "sd": 1.3}
+  ]
+}
