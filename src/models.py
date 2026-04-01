@@ -54,7 +54,7 @@ class PredictionInput(BaseModel):
     """Input for a single prediction request."""
 
     course: str
-    exam_year: int = 2026
+    exam_year: int = 2025
     mcq_correct: int
     mcq_total: Optional[int] = None
     frq_scores: Optional[list[float]] = None

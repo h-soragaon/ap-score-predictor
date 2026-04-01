@@ -1,75 +1,165 @@
 {
-  "_description": "Pre-seeded approximate cutoff priors for ordered logit model. tau_2..tau_5 are normalized composite thresholds for score boundaries (1/2, 2/3, 3/4, 4/5). sigma is the uncertainty parameter. Values are estimates from public calculator consensus and score distribution fitting.",
+  "_description": "Cutoff priors fitted against 2025 College Board score distributions via L-BFGS-B optimization.",
   "ap_biology": {
-    "tau": [0.25, 0.42, 0.60, 0.78],
-    "sigma": 0.08
+    "tau": [
+      0.078,
+      0.2949,
+      0.5704,
+      0.813
+    ],
+    "sigma": 0.0424
   },
   "ap_calculus_ab": {
-    "tau": [0.22, 0.38, 0.55, 0.72],
-    "sigma": 0.07
+    "tau": [
+      0.1217,
+      0.3572,
+      0.508,
+      0.8002
+    ],
+    "sigma": 0.058
   },
   "ap_calculus_bc": {
-    "tau": [0.18, 0.33, 0.50, 0.68],
-    "sigma": 0.07
+    "tau": [
+      0.0514,
+      0.212,
+      0.3406,
+      0.5605
+    ],
+    "sigma": 0.0379
   },
   "ap_chemistry": {
-    "tau": [0.25, 0.42, 0.58, 0.75],
-    "sigma": 0.08
+    "tau": [
+      0.055,
+      0.2196,
+      0.5352,
+      0.8227
+    ],
+    "sigma": 0.0318
   },
   "ap_computer_science_a": {
-    "tau": [0.22, 0.38, 0.55, 0.72],
-    "sigma": 0.07
+    "tau": [
+      0.2002,
+      0.3213,
+      0.5272,
+      0.7583
+    ],
+    "sigma": 0.1152
   },
   "ap_english_language_and_composition": {
-    "tau": [0.28, 0.44, 0.60, 0.76],
-    "sigma": 0.09
+    "tau": [
+      0.0925,
+      0.2568,
+      0.5864,
+      0.8687
+    ],
+    "sigma": 0.036
   },
   "ap_english_literature_and_composition": {
-    "tau": [0.28, 0.45, 0.62, 0.78],
-    "sigma": 0.09
+    "tau": [
+      0.0941,
+      0.2577,
+      0.5693,
+      0.8405
+    ],
+    "sigma": 0.0416
   },
   "ap_environmental_science": {
-    "tau": [0.28, 0.45, 0.62, 0.78],
-    "sigma": 0.08
+    "tau": [
+      0.1553,
+      0.307,
+      0.5965,
+      0.878
+    ],
+    "sigma": 0.0421
   },
   "ap_human_geography": {
-    "tau": [0.25, 0.42, 0.58, 0.75],
-    "sigma": 0.08
+    "tau": [
+      0.0926,
+      0.3523,
+      0.5784,
+      0.8325
+    ],
+    "sigma": 0.0427
   },
   "ap_microeconomics": {
-    "tau": [0.25, 0.42, 0.60, 0.78],
-    "sigma": 0.08
+    "tau": [
+      0.1092,
+      0.317,
+      0.5442,
+      0.7858
+    ],
+    "sigma": 0.0459
   },
   "ap_music_theory": {
-    "tau": [0.25, 0.42, 0.60, 0.78],
-    "sigma": 0.09
+    "tau": [
+      0.1419,
+      0.3938,
+      0.6323,
+      0.815
+    ],
+    "sigma": 0.0538
   },
   "ap_physics_1": {
-    "tau": [0.28, 0.45, 0.62, 0.80],
-    "sigma": 0.08
+    "tau": [
+      0.185,
+      0.3243,
+      0.5554,
+      0.8086
+    ],
+    "sigma": 0.0734
   },
   "ap_physics_2": {
-    "tau": [0.25, 0.42, 0.60, 0.78],
-    "sigma": 0.08
+    "tau": [
+      0.0595,
+      0.2728,
+      0.494,
+      0.7838
+    ],
+    "sigma": 0.0454
   },
   "ap_psychology": {
-    "tau": [0.22, 0.38, 0.55, 0.72],
-    "sigma": 0.07
+    "tau": [
+      0.0925,
+      0.2939,
+      0.5472,
+      0.8589
+    ],
+    "sigma": 0.0398
   },
   "ap_statistics": {
-    "tau": [0.25, 0.42, 0.58, 0.75],
-    "sigma": 0.08
+    "tau": [
+      0.2327,
+      0.3955,
+      0.6166,
+      0.8395
+    ],
+    "sigma": 0.0749
   },
   "ap_us_government_and_politics": {
-    "tau": [0.25, 0.42, 0.58, 0.75],
-    "sigma": 0.08
+    "tau": [
+      0.0946,
+      0.2819,
+      0.5151,
+      0.7644
+    ],
+    "sigma": 0.0363
   },
   "ap_us_history": {
-    "tau": [0.28, 0.45, 0.60, 0.76],
-    "sigma": 0.09
+    "tau": [
+      0.0746,
+      0.2624,
+      0.4964,
+      0.8605
+    ],
+    "sigma": 0.0333
   },
   "ap_world_history_modern": {
-    "tau": [0.28, 0.45, 0.60, 0.76],
-    "sigma": 0.09
+    "tau": [
+      0.0899,
+      0.3563,
+      0.5271,
+      0.8628
+    ],
+    "sigma": 0.0143
   }
 }
