@@ -6,3 +6,6 @@ __pycache__/
 dist/
 build/
 .env
+
+# Hidden technical docs (not for publication)
+docs/how-it-works.html

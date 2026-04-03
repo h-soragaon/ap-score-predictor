@@ -1,0 +1,532 @@
+{
+  "ap_biology": {
+    "title": "AP Biology",
+    "mcq_total": 60,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          9,
+          9,
+          4,
+          4,
+          4,
+          4
+        ],
+        "question_weights": [
+          0.1323529411764706,
+          0.1323529411764706,
+          0.058823529411764705,
+          0.058823529411764705,
+          0.058823529411764705,
+          0.058823529411764705
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.008333333333333333,
+    "total_weight": 1.0
+  },
+  "ap_calculus_ab": {
+    "title": "AP Calculus AB",
+    "mcq_total": 45,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "question_weights": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.011111111111111112,
+    "total_weight": 1.0
+  },
+  "ap_calculus_bc": {
+    "title": "AP Calculus BC",
+    "mcq_total": 45,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "question_weights": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      }
+    ],
+    "special": "Calculus AB subscore optional with additional tagged inputs",
+    "mcq_point_weight": 0.011111111111111112,
+    "total_weight": 1.0
+  },
+  "ap_chemistry": {
+    "title": "AP Chemistry",
+    "mcq_total": 60,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          10,
+          10,
+          10,
+          4,
+          4,
+          4,
+          4
+        ],
+        "question_weights": [
+          0.10869565217391304,
+          0.10869565217391304,
+          0.10869565217391304,
+          0.043478260869565216,
+          0.043478260869565216,
+          0.043478260869565216,
+          0.043478260869565216
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.008333333333333333,
+    "total_weight": 1.0
+  },
+  "ap_computer_science_a": {
+    "title": "AP Computer Science A",
+    "mcq_total": 42,
+    "mcq_weight": 0.55,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.45,
+        "question_max": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "question_weights": [
+          0.11249999999999999,
+          0.11249999999999999,
+          0.11249999999999999,
+          0.11249999999999999
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.013095238095238096,
+    "total_weight": 1.0
+  },
+  "ap_english_language_and_composition": {
+    "title": "AP English Language and Composition",
+    "mcq_total": 45,
+    "mcq_weight": 0.45,
+    "frq_sections": [
+      {
+        "name": "essays",
+        "weight": 0.55,
+        "question_max": [
+          6,
+          6,
+          6
+        ],
+        "question_weights": [
+          0.18333333333333335,
+          0.18333333333333335,
+          0.18333333333333335
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.01,
+    "total_weight": 1.0
+  },
+  "ap_english_literature_and_composition": {
+    "title": "AP English Literature and Composition",
+    "mcq_total": 55,
+    "mcq_weight": 0.45,
+    "frq_sections": [
+      {
+        "name": "essays",
+        "weight": 0.55,
+        "question_max": [
+          6,
+          6,
+          6
+        ],
+        "question_weights": [
+          0.18333333333333335,
+          0.18333333333333335,
+          0.18333333333333335
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.008181818181818182,
+    "total_weight": 1.0
+  },
+  "ap_environmental_science": {
+    "title": "AP Environmental Science",
+    "mcq_total": 80,
+    "mcq_weight": 0.6,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.4,
+        "question_max": [
+          10,
+          10,
+          10
+        ],
+        "question_weights": [
+          0.13333333333333333,
+          0.13333333333333333,
+          0.13333333333333333
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.0075,
+    "total_weight": 1.0
+  },
+  "ap_human_geography": {
+    "title": "AP Human Geography",
+    "mcq_total": 60,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          7,
+          7,
+          7
+        ],
+        "question_weights": [
+          0.16666666666666666,
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.008333333333333333,
+    "total_weight": 1.0
+  },
+  "ap_microeconomics": {
+    "title": "AP Microeconomics",
+    "mcq_total": 60,
+    "mcq_weight": 0.6666666666666666,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.3333333333333333,
+        "question_max": [
+          10,
+          5,
+          5
+        ],
+        "question_weights": [
+          0.16666666666666666,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.01111111111111111,
+    "total_weight": 1.0
+  },
+  "ap_music_theory": {
+    "title": "AP Music Theory",
+    "mcq_total": 75,
+    "mcq_weight": 0.45,
+    "frq_sections": [
+      {
+        "name": "written_frq",
+        "weight": 0.45,
+        "question_max": [
+          9,
+          9,
+          24,
+          24,
+          25,
+          18,
+          9
+        ],
+        "question_weights": [
+          0.034322033898305085,
+          0.034322033898305085,
+          0.09152542372881356,
+          0.09152542372881356,
+          0.09533898305084745,
+          0.06864406779661017,
+          0.034322033898305085
+        ]
+      },
+      {
+        "name": "sight_singing",
+        "weight": 0.1,
+        "question_max": [
+          9,
+          9
+        ],
+        "question_weights": [
+          0.05,
+          0.05
+        ]
+      }
+    ],
+    "special": "Aural and nonaural subscores optional with component-level MCQ inputs",
+    "mcq_point_weight": 0.006,
+    "total_weight": 1.0
+  },
+  "ap_physics_1": {
+    "title": "AP Physics 1: Algebra-Based",
+    "mcq_total": 40,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          10,
+          12,
+          10,
+          8
+        ],
+        "question_weights": [
+          0.125,
+          0.15,
+          0.125,
+          0.1
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.0125,
+    "total_weight": 1.0
+  },
+  "ap_physics_2": {
+    "title": "AP Physics 2: Algebra-Based",
+    "mcq_total": 40,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          10,
+          12,
+          10,
+          8
+        ],
+        "question_weights": [
+          0.125,
+          0.15,
+          0.125,
+          0.1
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.0125,
+    "total_weight": 1.0
+  },
+  "ap_psychology": {
+    "title": "AP Psychology",
+    "mcq_total": 75,
+    "mcq_weight": 0.6666666666666666,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.3333333333333333,
+        "question_max": [
+          7,
+          7
+        ],
+        "question_weights": [
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.008888888888888889,
+    "total_weight": 1.0
+  },
+  "ap_statistics": {
+    "title": "AP Statistics",
+    "mcq_total": 40,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "question_weights": [
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.0125,
+    "total_weight": 1.0
+  },
+  "ap_us_government_and_politics": {
+    "title": "AP U.S. Government and Politics",
+    "mcq_total": 55,
+    "mcq_weight": 0.5,
+    "frq_sections": [
+      {
+        "name": "frq",
+        "weight": 0.5,
+        "question_max": [
+          3,
+          4,
+          4,
+          6
+        ],
+        "question_weights": [
+          0.08823529411764706,
+          0.11764705882352941,
+          0.11764705882352941,
+          0.17647058823529413
+        ]
+      }
+    ],
+    "special": null,
+    "mcq_point_weight": 0.00909090909090909,
+    "total_weight": 1.0
+  },
+  "ap_us_history": {
+    "title": "AP U.S. History",
+    "mcq_total": 55,
+    "mcq_weight": 0.4,
+    "frq_sections": [
+      {
+        "name": "saq",
+        "weight": 0.2,
+        "question_max": [
+          3,
+          3,
+          3
+        ],
+        "question_weights": [
+          0.06666666666666668,
+          0.06666666666666668,
+          0.06666666666666668
+        ]
+      },
+      {
+        "name": "dbq",
+        "weight": 0.25,
+        "question_max": [
+          7
+        ],
+        "question_weights": [
+          0.25
+        ]
+      },
+      {
+        "name": "leq",
+        "weight": 0.15,
+        "question_max": [
+          6
+        ],
+        "question_weights": [
+          0.15
+        ]
+      }
+    ],
+    "special": "Last SAQ is choice-based; store as saq_q3_or_q4",
+    "mcq_point_weight": 0.007272727272727273,
+    "total_weight": 1.0
+  },
+  "ap_world_history_modern": {
+    "title": "AP World History: Modern",
+    "mcq_total": 55,
+    "mcq_weight": 0.4,
+    "frq_sections": [
+      {
+        "name": "saq",
+        "weight": 0.2,
+        "question_max": [
+          3,
+          3,
+          3
+        ],
+        "question_weights": [
+          0.06666666666666668,
+          0.06666666666666668,
+          0.06666666666666668
+        ]
+      },
+      {
+        "name": "dbq",
+        "weight": 0.25,
+        "question_max": [
+          7
+        ],
+        "question_weights": [
+          0.25
+        ]
+      },
+      {
+        "name": "leq",
+        "weight": 0.15,
+        "question_max": [
+          6
+        ],
+        "question_weights": [
+          0.15
+        ]
+      }
+    ],
+    "special": "Last SAQ is choice-based; store as saq_q3_or_q4",
+    "mcq_point_weight": 0.007272727272727273,
+    "total_weight": 1.0
+  }
+}

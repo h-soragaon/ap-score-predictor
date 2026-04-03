@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Score Predictor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-grain"></div>
+
+  <header class="site-header">
+    <div class="header-rule"></div>
+    <div class="header-content">
+      <span class="header-label">Bayesian Estimation Model</span>
+      <h1>AP Score<br>Predictor</h1>
+      <p class="header-sub">Ordered logit probability distribution across scores 1–5,<br>calibrated against public College Board data.</p>
+    </div>
+    <div class="header-rule"></div>
+  </header>
+
+  <main class="container">
+    <!-- Course Selection -->
+    <section class="card card-select" id="course-section">
+      <div class="card-number">01</div>
+      <h2>Select Course</h2>
+      <div class="select-wrapper">
+        <select id="course-select" disabled>
+          <option value="">Loading courses…</option>
+        </select>
+        <div class="select-arrow">▾</div>
+      </div>
+    </section>
+
+    <!-- Score Input Form -->
+    <section class="card card-input" id="input-section" style="display:none;">
+      <div class="card-number">02</div>
+      <h2>Enter Scores</h2>
+      <form id="score-form">
+        <div class="input-group" id="mcq-group">
+          <label class="input-label">
+            <span class="label-text">Multiple Choice Correct</span>
+            <span class="label-meta" id="mcq-meta"></span>
+          </label>
+          <div class="range-input-wrap">
+            <input type="range" id="mcq-range" min="0" max="60" value="30">
+            <input type="number" id="mcq-input" min="0" max="60" value="30" class="num-input">
+          </div>
+        </div>
+
+        <div id="frq-container"></div>
+
+        <button type="submit" class="predict-btn" id="predict-btn">
+          <span class="btn-text">Calculate Probability Distribution</span>
+          <span class="btn-arrow">→</span>
+        </button>
+      </form>
+    </section>
+
+    <!-- Results -->
+    <section class="card card-results" id="results-section" style="display:none;">
+      <div class="card-number">03</div>
+      <h2>Prediction</h2>
+
+      <div class="result-hero">
+        <div class="hero-score" id="hero-score">—</div>
+        <div class="hero-meta">
+          <span class="hero-label">Most Likely Score</span>
+          <span class="hero-expected" id="hero-expected"></span>
+        </div>
+      </div>
+
+      <div class="prob-chart" id="prob-chart"></div>
+
+      <div class="result-stats">
+        <div class="stat">
+          <span class="stat-value" id="stat-composite">—</span>
+          <span class="stat-label">Composite</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-difficulty">—</span>
+          <span class="stat-label">Difficulty Adj.</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value" id="stat-confidence">—</span>
+          <span class="stat-label">90% Confidence</span>
+        </div>
+      </div>
+
+      <div class="explanations" id="explanations"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-rule"></div>
+    <p>Model returns <em>P(score = 1…5)</em> using an ordered logit with pre-seeded cutoff priors. Not affiliated with College Board. Results are probabilistic estimates, not guarantees.</p>
+  </footer>
+
+  <script src="predict.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
