@@ -7,5 +7,9 @@ dist/
 build/
 .env
 
+# Claude Code / Playwright MCP local files
+.claude/
+.playwright-mcp/
+
 # Hidden technical docs (not for publication)
 docs/how-it-works.html
